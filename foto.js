@@ -1,4 +1,4 @@
-import { verificarFirma, hostPermitido } from "../lib/core.js";
+import { verificarFirma, hostPermitido } from "./_core.js";
 
 // GET /api/foto?u=<url base64url>&s=<firma>
 // Sirve la foto desde el mismo dominio (necesario para armar el PDF en el navegador).

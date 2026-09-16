@@ -1,4 +1,4 @@
-import { getEquipos, enviarError } from "../lib/core.js";
+import { getEquipos, enviarError } from "./_core.js";
 
 // GET /api/equipos?school=nombre-del-colegio
 export default async function handler(req, res) {
